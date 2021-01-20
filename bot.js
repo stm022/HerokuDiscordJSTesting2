@@ -3,7 +3,7 @@ const { Client } = require('discord.js');
 const bot = new Client();
 
 client.on('ready', () => {
-    console.log('I am ready!');
+    console.log('Bot Testing ready!');
 });
 
 client.on('message', message => {
